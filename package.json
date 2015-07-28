@@ -9,6 +9,7 @@
   "author": "Alex Bardanov",
   "license": "Private",
   "dependencies": {
-    "koa": "^0.21.0"
+    "koa": "^0.21.0",
+    "koa-static": "^1.4.9"
   }
 }

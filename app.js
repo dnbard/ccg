@@ -3,6 +3,12 @@ var app = koa();
 
 // x-response-time
 
+app.use(require('koa-static')('./public', {
+    index: 'index.html',
+    hidden: false,
+    maxage: 0 //decide later
+}));
+
 app.use(function* (next) {
     var start = new Date;
     yield next;
