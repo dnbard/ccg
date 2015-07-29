@@ -1,0 +1,79 @@
+body{
+    background: #ebeff2;
+}
+
+.card{
+    font-family: RobotoDraft, Roboto, sans-serif;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-body{
+    width: 300px;
+    height: 220px;
+    box-shadow: 0 0 10px black, 0 0 25px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    position: relative;
+}
+
+.card-top{
+    width: 300px;
+    height: 70px;
+    background-color: #676D37;
+    position: relative;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+}
+
+.card-top__label{
+    display: inline-block;
+    padding: 14px 18px 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+    color: white;
+    font-size: 14pt;
+}
+
+.card-top__cost{
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 100;
+    padding: 14px 0 0 17px;
+    color: white;
+}
+
+.card-top__type{
+    float: right;
+    position: absolute;
+    top: 36px;
+    right: 20px;
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    font-variant: normal;
+}
+
+.card-bottom{
+    width: 300px;
+    height: 120px;
+    background-color: #676D37;
+    position: relative;
+    box-sizing: border-box;
+    padding: 14px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+}
+
+.card-bottom__description{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px 4px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
