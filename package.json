@@ -1,15 +1,17 @@
 {
-  "name": "ccg",
-  "version": "0.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alex Bardanov",
-  "license": "Private",
-  "dependencies": {
-    "koa": "^0.21.0",
-    "koa-static": "^1.4.9"
-  }
+    "name": "ccg",
+    "version": "0.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "develop": "nodemon --harmony app.js",
+        "start": "node --harmony app.js"
+    },
+    "author": "Alex Bardanov",
+    "license": "Private",
+    "dependencies": {
+        "koa": "^0.21.0",
+        "koa-static": "^1.4.9"
+    }
 }
